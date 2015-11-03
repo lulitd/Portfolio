@@ -217,6 +217,21 @@ p {
     background-color:#181A1C;
     color:#fff;
 }
+
+ .button-lt,  .button-lt:visited, .button-lt:focus {
+    display:inline-block;
+    border:1px solid #FB8D27;
+    color:#FB8D27;
+    background-color:transparent;
+    padding:15px 30px;
+    font-size:17px;
+    line-height:auto;
+}
+.button-lt:hover, .button-lt:active{
+    background-color:#181A1C;
+    color:#FB8D27;
+}
+
 .button-sp, .button-sp:visited, .button-sp:focus {
     border:none;
     background-color:#FB8D27;
