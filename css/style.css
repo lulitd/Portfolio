@@ -434,13 +434,12 @@ p {
 ***************************************/
 .service{
     margin-top:20px;
-    padding-bottom:20px;
 }
  .service, .service h2 {
     padding-top:15px;
 }
 .service p {
-    padding:0px 50px;
+    padding:20px 50px;
     height:60px;
 }
 .service img {
