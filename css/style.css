@@ -21,7 +21,7 @@
  3.6 Newsletter
  3.7 Contact
  3.8 Footer
-4 Responsive 
+4 Responsive
 **********************************************************************/
 
 /*
@@ -35,11 +35,11 @@
     line-height:20px;
 }
 a {
-    color:#181A1C;
+    color:#333333;
     text-decoration: none;
 }
 a:hover {
-    color: #FB8D27;
+    color: #F62A00;
     text-decoration:none;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -51,10 +51,10 @@ h1 {
 p {
     padding: 10px;
     font-weight: 100;
-    color: #181A1C;
+    color: #333333;
 }
 .navbar {
-    background: #181A1C;
+    background: #333333;
     margin-bottom:0;
     min-height:70px;
 }
@@ -65,7 +65,7 @@ p {
     padding-top:0;
 }
 .navbar-inner {
-    background: #181A1C;
+    background: #333333;
     border-radius:0;
     filter: none;
     border: none;
@@ -82,7 +82,7 @@ p {
     margin:10px 3px;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
-    border: 1px solid #181A1C;
+    border: 1px solid #333333;
     box-shadow: none;
     font-size:15px;
     text-shadow: none;
@@ -90,31 +90,33 @@ p {
     transition: border-color 1s ease;
 }
 .navbar .nav > li:hover> a, .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
-    border: 1px solid #FB8D27;
+    border: 1px solid #F62A00;
     color: #fff;
-    background-color: #181A1C;
+    background-color: #333333;
     transition: border-color 1s ease;
 }
 .nav-pills {
     margin-bottom: 30px;
 }
 .nav-pills > li > a {
-    background: transparent;
+    background: #333;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border-radius: 0;
     margin-right:5px;
     padding-left:25px;
     padding-right:25px;
-    border: 1px solid #181A1C;
+	color: #fff;
 }
 .nav-pills > li > a:hover, .nav-pills > .active > a, .nav-pills > .active > a:hover, .nav-pills > .active > a:focus {
-    background: #181A1C;
+    background: #333;
     color: #fff;
+	border: 1px solid #F62A00;
+
 }
 .navbar .btn-navbar:hover, .navbar .btn-navbar {
     border-radius:0;
-    background:#FB8D27;
+    background:#F62A00;
     color: #000;
 }
 /******
@@ -142,12 +144,12 @@ p {
 .large-text {
     line-height:1.2em;
     font-size: 30px;
-    color: #181A1C;
+    color: #333333;
     padding:20px;
     margin-bottom:20px;
 }
 .highlighted-box h1, .highlighted-box p {
-    color: #181A1C !important;
+    color: #333333 !important;
 }
 .circle-border {
     display: inline-block;
@@ -176,10 +178,14 @@ p {
     text-align:center;
     width: 0;
     height: 0;
-    border-top: 30px solid #181A1C;
+    border-top: 30px solid #333333;
     border-left: 585px outset transparent;
     border-right: 585px outset transparent;
     position: relative;
+}
+
+.logo img {
+    width:20%;
 }
 /*
 2.1 Animations
@@ -206,49 +212,50 @@ p {
 **********/
  .button,  .button:visited, .button:focus {
     display:inline-block;
-    border:1px solid #181A1C;
-    color:#181A1C;
+    border:1px solid #333333;
+    color:#333333;
     background-color:transparent;
     padding:15px 30px;
     font-size:17px;
     line-height:auto;
 }
 .button:hover, .button:active{
-    background-color:#181A1C;
+    background-color:#333333;
     color:#fff;
 }
 
  .button-lt,  .button-lt:visited, .button-lt:focus {
     display:inline-block;
-    border:1px solid #FB8D27;
-    color:#FB8D27;
+    border:1px solid #F1F3CE;
+    color:#F1F3CE;
     background-color:transparent;
     padding:15px 30px;
     font-size:17px;
     line-height:auto;
 }
 .button-lt:hover, .button-lt:active{
-    background-color:#181A1C;
-    color:#FB8D27;
+    background-color:#333333;
+	border:1px solid #F62A00;
+    color:#F1F3CE;
 }
 
 .button-sp, .button-sp:visited, .button-sp:focus {
     border:none;
-    background-color:#FB8D27;
-    color:#181A1C;
+    background-color:#F62A00;
+    color:#333333;
 }
 .button-sp:hover, .button-sp:active {
-    background-color:#181A1C;
-    color:#FB8D27;
+    background-color:#333333;
+    color:#F62A00;
 }
 .button-ps, .button-ps:visited, .button-ps:focus {
     border:none;
-    background-color:#181A1C;
-    color:#FB8D27;
+    background-color:#333333;
+    color:#F62A00;
 }
 .button-ps:hover, .button-ps:active {
-    background-color:#FB8D27;
-    color:#181A1C;
+    background-color:#F62A00;
+    color:#333333;
 }
 /*
 2.3 Thumbnails - Predefined bootstrap's thumbnail class.
@@ -290,7 +297,7 @@ p {
     -ms-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
 }
-.thumbnail h3, 
+.thumbnail h3,
 .thumbnail p {
     margin:0;
     padding:0;
@@ -298,7 +305,7 @@ p {
     z-index:4;
 }
 .thumbnail h3 {
-    color: #FB8D27;
+    color: #F62A00;
     margin-top:10px;
     font-size:20px;
 }
@@ -312,7 +319,7 @@ p {
     left:0;
     width:100%;
     height:100%;
-    background:#181A1C;
+    background:#333333;
     position:absolute;
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
@@ -344,13 +351,13 @@ p {
     padding:0;
     width:32px;
     height:32px;
-    color: #FB8D27;
+    color: #F62A00;
 }
 .social li a:hover {
-    color:#181A1C;
+    color:#333333;
 }
 /*
-3. Sections 
+3. Sections
 ***************************************************************************/
  .section {
     padding-bottom: 50px;
@@ -366,54 +373,56 @@ p {
 .section .title h1 {
     font-weight: normal;
     margin-bottom: 20px;
+    color: #F62A00;
     padding: 0;
+
 }
 .section .title > p {
     font-size: 20px;
-    color: #FB8D27;
+    color: #F62A00;
     font-weight: lighter;
 }
 .primary-section {
-    background:#181A1C;
+    background:#333333;
 }
 .primary-section .triangle {
-    border-top: 40px solid #FB8D27;
+    border-top: 40px solid #F1F3CE;
 }
 .primary-section .title {
     border-bottom: 1px solid #FFF;
 }
-.primary-section, .primary-section p, .primary-section h3 {
-    color: #FB8D27;
+.primary-section, .primary-section p {
+    color: #efefef;
 }
-.primary-section h1 {
-    color:#FFF;
+.primary-section h1,h2,h3,h4,h5,h6 {
+    color:#F62A00;
 }
 
 
 .secondary-section {
-    background:#FB8D27;
+    background:#F1F3CE;
 }
 .secondary-section .title {
-    border-bottom: 1px solid #181A1C;
+    border-bottom: 1px solid #333333;
 }
 .secondary-section h1,h2,h3,h4,h5,h6 {
-    color: #fff;
+    color: #F62A00;
 }
 
  .secondary-section .title p {
-	color: #181A1C;
+	color: #F62A00;
  }
 
  .secondary-section p{
- 	color:#181A1C;
+ 	color:#333333;
  }
 
 
 /* Third section use bacground image */
 .third-section {
     padding-bottom: 70px;
-    background: #181A1C url(../images/brand-bg.png) no-repeat center;
-    border-top:6px solid #FB8D27;
+    background: #333333  no-repeat center;
+    border-top:6px solid #F62A00;
 }
 .third-section .container {
     padding-top:20px;
@@ -421,7 +430,7 @@ p {
 }
 .third-section .title {
     border-bottom: 1px solid #A1AAB7;
-    color: #FB8D27;
+    color: #F62A00;
 }
 .sub-section {
     margin-top:30px;
@@ -430,17 +439,18 @@ p {
     padding:0;
 }
 /*******
-3.1 Services  
+3.1 Services
 ***************************************/
 .service{
-    margin-top:20px;
+    margin-top:10px;
 }
  .service, .service h2 {
-    padding-top:15px;
+    padding-top:10px;
 }
 .service p {
-    padding:20px 50px;
-    height:60px;
+    padding:0px 10px;
+	padding-bottom:25px;
+    height:90px;
 }
 .service img {
     width:150px;
@@ -451,7 +461,7 @@ p {
 ***************************************/
  .single-project {
     margin-bottom:30px;
-    background:#181A1C;
+    background:#333333;
 }
 .single-project img {
     width:100%;
@@ -461,11 +471,12 @@ p {
 }
 .project-description p {
     padding-left:0;
+    color: #eee;
 }
 .project-title {
     margin-top:15px;
     margin-bottom:15px;
-    border-bottom:1px solid #FB8D27;
+    border-bottom:1px solid #F62A00;
 }
 .project-title h3 {
     float:left;
@@ -474,22 +485,30 @@ p {
     width:80%;
 }
 .project-title .close {
-    color: #FB8D27;
+    color: #F62A00;
     margin-top:10px;
 }
 .project-info span, .project-title h3 {
-    color:#FB8D27;
+    color:#F62A00;
 }
 .project-info {
-    font-weight:100;
+    font-weight:50;
     padding:10px 0;
 }
 .project-info span {
-    width: 80px;
+    width: 125px;
     display: inline-block;
+	margin-right:50px;
 }
 .project-info div {
     margin-bottom:5px;
+}
+.project-info div a {
+  color: #ff8375;
+}
+
+.project-info div a:hover {
+	color: #FFF;
 }
 .close {
     float: right;
@@ -500,6 +519,13 @@ p {
 #portfolio-grid .mix {
     opacity: 0;
     display: none;
+}
+
+.project-thumb h3{
+
+}
+.project-thumb p {
+  color: #ccc;
 }
 /*
 3.3 About
@@ -518,7 +544,7 @@ p {
     color:#fff;
 }
 .team .thumbnail .mask {
-    background: #FB8D27;
+    background: #F62A00;
 }
 .team .thumbnail .mask h2 {
     margin-top:20%;
@@ -546,7 +572,7 @@ p {
 }
 .skills li {
     margin-bottom:30px;
-    background:#FFF;
+    background:#F1F3CE;
     height:40px;
     padding:1px;
 }
@@ -557,13 +583,26 @@ p {
     margin:0;
     left: 10px;
     z-index: 1;
-    color: #181A1C;
+    color: #eee;
+    font-weight: 600;
+}
+
+.skills p {
+    position: relative;
+    font-size: 15px;
+    padding:5;
+    margin:5;
+    left: 10px;
+    z-index: 1;
+    color: #333333;
 }
 .skills li .bar {
     height:40px;
     position:absolute;
-    background-color: #FB8D27;
+    background-color: #F62A00;
 }
+
+
 /*
 3.4 Clients
 **********************************************************************/
@@ -571,7 +610,7 @@ p {
     border:1px solid white;
 }
 .client-slider img:hover {
-    background-color:#FB8D27;
+    background-color:#F62A00;
 }
 .client-nav {
     list-style:none;
@@ -585,24 +624,24 @@ p {
 .client-nav li a {
     display:inherit;
     padding:5px;
-    background:#FB8D27;
+    background:#F62A00;
     border-radius:3px;
     width:20px;
     height:20px;
 }
 .client-nav li a:hover {
-    background:#181A1C;
+    background:#333333;
 }
 .testimonial p {
-    color:#181A1C;
-    background:#FB8D27;
+    color:#333333;
+    background:#F62A00;
     padding:15px;
     margin:0;
 }
 .testimonial .arrow {
     margin-left:10px;
     width:0;
-    border-top:10px solid #FB8D27;
+    border-top:10px solid #F62A00;
     border-left: 20px outset transparent;
     border-right: 20px outset transparent;
 }
@@ -623,7 +662,7 @@ p {
 .testimonial .whopic small {
     display:block;
     font-size:12px;
-    
+
 }
 .testimonial-text{
     display:block;
@@ -651,10 +690,10 @@ p {
     text-align:center;
 }
 .price-column h3 {
-    background-color:#181A1C;
+    background-color:#333333;
     text-transform:uppercase;
     text-align: center;
-    color:#FB8D27;
+    color:#F62A00;
     padding:40px 0px;
     font-size: 36px;
     margin-top:0px;
@@ -683,7 +722,7 @@ p {
 .price-text{
     margin:30px 0 20px;
     font-size:20px;
-    color: #181A1C;
+    color: #333333;
     font-weight:normal;
 }
 /*
@@ -710,17 +749,17 @@ p {
 }
 .newsletter .button-sp:hover, .newsletter .button-sp:active {
     background-color:#FFF;
-    color:#181A1C;
+    color:#333333;
 }
 
 /*
 3.7 Contact
 ********************************************************************/
  .contact {
-    background: #FB8D27;
+    background: #F62A00;
 }
 .contact h1, .contact h2, .contact h3, .contact h4, .contact h5, .contact h6, .contact .social > li > a {
-	color: #FFFFFF;
+	color: #F62A00;
 }
 .contact textarea, .contact input[type="text"], .contact input[type="email"] {
     padding: 10px;
@@ -780,10 +819,10 @@ p {
     -webkit-transition: margin 0.4s;
 }
 .contact .social li a {
-    color:#fff;
+    color:#f62a00;
 }
 .contact .social li a:hover {
-    color:#181A1C;
+    color:#333333;
 }
 .contact-form {
     background:#fff;
@@ -805,7 +844,7 @@ p {
     font-size:17px;
 }
 .message-btn:hover {
-    background-color:#FB8D27;
+    background-color:#F62A00;
 }
 .contact-info {
     text-align:center;
@@ -816,16 +855,16 @@ p {
     width:60%;
     margin:0 auto;
     padding:15px;
-    color:#181A1C;
+    color:#333333;
 }
 .black {
-    color:#181A1C;
+    color:#333333;
 }
 /*
 3.8 Footer
 ********************************************************************/
  .footer {
-    background: #181A1C;
+    background: #333333;
     text-align: center;
 }
 .footer > p {
@@ -845,7 +884,7 @@ p {
     right:20px;
 	border:1px solid #fff;
     display:none;
-    background: #FB8D27;
+    background: #F62A00;
 }
 .scrollup > a {
     position:relative;
@@ -923,4 +962,32 @@ p {
     .price-column, .testimonial {
         margin-top:30px;
     }
+}
+
+.js-video {
+  height: 0;
+  padding-top: 25px;
+  padding-bottom: 67.5%;
+  margin-left: 25px;
+  margin-right: 0;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  position: relative;
+  overflow: hidden;
+}
+
+.js-video.widescreen {
+  padding-bottom: 56.34%;
+}
+
+.js-video.vimeo {
+  padding-top: 0;
+}
+
+.js-video embed, .js-video iframe, .js-video object, .js-video video {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
 }
