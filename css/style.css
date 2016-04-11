@@ -449,7 +449,7 @@ p {
 }
 .service p {
     padding:0px 10px;
-	padding-bottom:25px;
+	margin-bottom:25px;
     height:90px;
 }
 .service img {
