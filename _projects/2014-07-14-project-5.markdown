@@ -1,7 +1,7 @@
 ---
 title: ALICE IN WONDERLAND
 subtitle: Interactive Dance Performance
-quick-description: Interactive Dance Performance
+quick-summary: Interactive Dance Performance
 layout: default
 modal-id: 3
 date: 2014-07-14

@@ -1,7 +1,7 @@
 ---
 title: Blink
 subtitle: Virtual Reality Experience
-quick-description: Virtual Reality Experience 
+quick-summary: Virtual Reality Experience
 layout: default
 modal-id: 6
 date: 2015-11-10

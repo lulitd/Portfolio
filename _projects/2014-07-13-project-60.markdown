@@ -1,7 +1,7 @@
 ---
 title: Lazurus and His Beloved
 subtitle: Interactive Theatre Production
-quick-description: Interactive Theatre Production
+quick-summary: Interactive Theatre Production
 layout: default
 modal-id: 1
 date: 2014-07-15
