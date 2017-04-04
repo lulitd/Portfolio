@@ -1,0 +1,23 @@
+---
+title: Encounter
+subtitle: Interactive Art Installation
+quick-summary: Interactive Artificial Ecosystem
+layout: default
+modal-id: 1
+date: 2016-01-01
+img: roundicons.png
+thumbnail: roundicons-thumbnail.png
+alt: image-alt
+project-date: February 2016
+collaborators: someone, someone, and someone
+client: Start Bootstrap
+category: Interaction Design & Creative Coding
+software: Unity3D(C#)
+          Cinema4D
+hardware: Microsoft Kinect for Windows
+          Android/ iOS Smartphone and Tablets
+showcase: York University Undergraduate Research Fair (February 2016)
+          Digital Media Showcase (April 2016)
+          Computational Beauty exhibition(April 2016)
+          Digifest Festival (April 2016)
+description: Encounter is an installation where participants can interact with artificial creatures and environments using mixed reality modes of interaction.
