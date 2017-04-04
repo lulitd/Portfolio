@@ -18,6 +18,9 @@ body {
     color: #{{ site.data.template.color.primary }};
 }
 
+.text-dark {
+    color: #{{ site.data.template.color.secondary-dark }};
+}
 p {
     font-size: 14px;
     line-height: 1.75;
