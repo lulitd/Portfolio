@@ -176,7 +176,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    color: #fff;
+    color: fff;
     text-transform:uppercase;
     font-family: "futura-pt","Helvetica Neue", Helvetica, Arial,sans-serif;
     font-style: normal;
@@ -223,9 +223,9 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-nav>.active>a {
-    border-radius: 0;
-    color: #fff;
-    background-color: #{{ site.data.template.color.primary }};
+  color: white;
+  border: 1px solid #FECE1A;
+  background-color:transparent;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
