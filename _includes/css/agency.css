@@ -334,6 +334,18 @@ section h2.section-heading {
     font-size: 40px;
 }
 
+section h2.section-heading-alt {
+  font-size: 40px;
+  font-family: {{ site.data.template.font.secondary }};
+  text-transform: none;
+  margin-top: 0;
+  margin-bottom: 90px;
+}
+
+.font-dark-bg{
+	 color:#fff;
+}
+
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
