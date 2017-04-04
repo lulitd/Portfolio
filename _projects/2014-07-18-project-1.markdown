@@ -1,17 +1,17 @@
 ---
-title: Dreams
-date: '2014-07-18 00:00:00'
+title: Encounter
+date: '2016-01-01 00:00:00'
 subtitle: Website Design
 layout: default
 modal-id: 1
 img: dreams.png
 thumbnail: dreams-thumbnail.png
 alt: dreams
-project-date: April 2014
+project-date: January 2016
 client: Start Bootstrap
 description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo
   novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo
   diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
 categories:
-- Web Development
+- Interaction Design & Creative Coding
 ---
