@@ -1,6 +1,7 @@
 ---
 title: "Impress: Visage"
 subtitle: Interactive Art Installation
+quick-description: Interactive Art Installation
 layout: default
 modal-id: 4
 date: 2015-06-01

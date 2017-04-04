@@ -1,8 +1,9 @@
 ---
 title: Midsummer Night's Dream
 subtitle: Interactive Theatre Production
+quick-description: Interactive Theatre Production
 layout: default
-modal-id: 6
+modal-id: 2
 date: 2014-07-15
 img: roundicons-thumbnail.png
 thumbnail: roundicons-thumbnail.png

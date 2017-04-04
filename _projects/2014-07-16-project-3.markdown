@@ -1,8 +1,9 @@
 ---
 title: Chasing Stars
 subtitle: Artificial Life Art Piece
+quick-description: Artificial Life Art Piece
 layout: default
-modal-id: 3
+modal-id: 5
 date: 2014-07-16
 img: golden.png
 thumbnail: golden-thumbnail.png

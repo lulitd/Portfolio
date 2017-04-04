@@ -2,8 +2,10 @@
 title: Encounter
 date: '2016-01-01 00:00:00'
 subtitle: Website Design
+quick-description: Interactive Artifical Ecosystem
+collaborators: Youhan Guan and Rose Mengmei Zhou
 layout: default
-modal-id: 1
+modal-id: 7
 img: dreams.png
 thumbnail: dreams-thumbnail.png
 alt: dreams
