@@ -9,7 +9,7 @@ thumbnail: dreams-thumbnail.png
 alt: dreams
 project-date: January 2016
 client: Start Bootstrap
-description: "Encounter is an installation where participants can interact with artificial creatures and environments using mixed reality modes of interaction. It was created for the Digital Media Project course as part of the Digital Media Program."
+description: Encounter is an installation where participants can interact with artificial creatures and environments using mixed reality modes of interaction. It was created for the Digital Media Project course as part of the Digital Media Program.
 categories:
 - Interaction Design & Creative Coding
 ---
