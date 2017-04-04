@@ -18,6 +18,5 @@ description: |-
 
   For this Project, my primary focus were the participant's interactions in the projection space, projection design and world modelling.
 
-categories:
-- Interaction Design, Creative Coding
+categories: Interaction Design, Creative Coding
 ---

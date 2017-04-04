@@ -1,6 +1,6 @@
 ---
-title: Startup Framework
-subtitle: Website Design
+title: ALICE IN WONDERLAND
+subtitle: Interactive Dance Performance
 layout: default
 modal-id: 5
 date: 2014-07-14
@@ -9,7 +9,9 @@ thumbnail: startup-framework-thumbnail.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+category: Interaction Design, Interactive Performance, Creative Coding
+description: A retelling of the classic tale Alice In Wonderland using the wonders of this land. In this interactive dance performance we follow Alice, portrayed by Madison Rath, as she travels throughout Wonderland. The backgrounds (created in Photoshop and animated with Processing) as well as lights (controlled with QLC+) are responsive to the dancer's movements in real time.
+
+I was responsible for taking 2D assets and making them reactive to Alice's Movements . I also created a custom show control interface within MaxMSP which allowed for smooth and seamless transitions between scenes.
 
 ---
