@@ -1,0 +1,37 @@
+url: http://lalaineulitdestajo.com
+baseurl:
+
+# Site settings
+title: Lalaine Ulit-Destajo Portfolio
+email: lulitdestajo@gmail.com
+description: "Portfolio of Lalaine Ulit-Destajo. Creative Coder.Multimedia and interaction Designer."
+
+# Team names, titles and social links
+people:
+- name: Lalaine Ulit-Destajo
+  pic: 1
+  position: Creative Coder. Multimedia and interaction Designer.
+  social:
+    - title: twitter
+      url:  http://twitter.com/ludestajo
+    - title: github
+      url: http://github.com/lulitd
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/ludestajo
+  - title: github
+    url: http://github.com/lulitd
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Toronto,ON,
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Portfolio items belong to the /projects collection
+collections:
+  projects:
