@@ -5,8 +5,8 @@ quick-summary: Interactive Dance Performance
 layout: default
 modal-id: 3
 date: 2014-07-14
-img: startup-framework.png
-thumbnail: startup-framework-thumbnail.png
+img: alice.jpg
+thumbnail: alice.jpg
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap

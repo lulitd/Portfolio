@@ -5,8 +5,8 @@ quick-summary: Interactive Theatre Production
 layout: default
 modal-id: 1
 date: 2014-07-15
-img: roundicons-thumbnail.png
-thumbnail: roundicons-thumbnail.png
+img: lazurus1.jpg
+thumbnail: lazurus1.jpg
 alt: image-alt
 project-date: April 2013
 client: Start Bootstrap

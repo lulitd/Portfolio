@@ -5,8 +5,8 @@ quick-summary: Artificial Life Art Piece
 layout: default
 modal-id: 5
 date: 2014-07-16
-img: golden.png
-thumbnail: golden-thumbnail.png
+img: chasing01.jpg
+thumbnail: chasing02.png
 alt: image-alt
 project-date: April 2016
 client: Start Bootstrap

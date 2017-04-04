@@ -5,8 +5,8 @@ quick-summary: Virtual Reality Experience
 layout: default
 modal-id: 6
 date: 2015-11-10
-img: escape.png
-thumbnail: escape-thumbnail.png
+img: blink2.gif
+thumbnail: blink1.png
 alt: image-alt
 project-date: 2015
 client: Start Bootstrap
