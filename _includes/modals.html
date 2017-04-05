@@ -17,7 +17,10 @@
                            {% if post.collaborators%}
                            <p class="item-intro text-mute">In collaboration with
                              {% for collab in post.collaborators %}
-                                <a href="{{ collab.url }}"> {{collab.name}} </a>
+                                <a href="{{ collab.url }}" target="_blank"> {{collab.name}} </a>
+                                {% if forloop.last == false %}
+                                ,
+                                {% endif %}
                              {% endfor %}
                            </p>
                            {% endif %}
