@@ -14,13 +14,10 @@ thumbnail: encounter.jpg
 alt: encounter
 project-date: January 2016
 description: Encounter is an installation where participants can interact with artificial creatures and environments using mixed reality modes of interaction.
+  Participants act as city planners by physical objects on the map to shape the virtual world. Using a smartphone/tablet device and a custom app participants can find out more information about the environment using augmented reality. The app recognizes various objects and images and communicates any changes the "city planners" make.
+  In the projection zone, participants control their digital avatars using their body movements.  The environment and creatures of this ecosystem respond to their gestures. Any changes made by the city planners are reflected in the projected view in real time.
+  For this Project, my primary focus were the participant's interactions in the projection space, projection design and world modelling.
 
-Participants act as city planners by physical objects on the map to shape the virtual world. Using a smartphone/tablet device and a custom app participants can find out more information about the environment using augmented reality. The app recognizes various objects and images and communicates any changes the "city planners" make.
-
-In the projection zone, participants control their digital avatars using their body movements.  The environment and creatures of this ecosystem respond to their gestures. Any changes made by the city planners are reflected in the projected view in real time.
-
-For this Project, my primary focus were the participant's interactions in the projection space, projection design and world modelling.
-  
 software:
   - Unity3D (c#)
   - Cinema4D
