@@ -5,6 +5,7 @@ color:
   secondary-dark: 333
   muted: 616161
   darkmuted: 424242
+  link-init: D84315
 
 # Font Families
 font:

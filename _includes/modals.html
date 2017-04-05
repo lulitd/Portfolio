@@ -26,6 +26,15 @@
                            {% endif %}
                            <hr class="star-primary">
                            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+
+                           {% if post.youtube_url%}
+
+                           <div class="embed-responsive embed-responsive-16by9">
+                             <iframe class="embed-responsive-item" src={{ post.youtube_url }}></iframe>
+                           </div>
+                           {% endif %}
+
+                           <hr class="star-primary">
                            <p>{{ post.description }}</p>
                            <ul class="list-inline item-details">
                                <li><strong>Date:</strong>
