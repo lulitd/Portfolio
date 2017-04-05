@@ -15,7 +15,9 @@ thumbnail: lazurus1.jpg
 alt: image-alt
 project-date: April 2013
 client: Start Bootstrap
-category: Interaction Design, Creative Coding
+category:
+  - Interaction Design
+  - Creative Coding
 description: |-
   Outdoor theatrical production of Lazarus and His Beloved by Kahlil Gibran, in collaboration with Broken Hill Theatre. In this production, we created an interactive projection mapping system which was use to project visuals onto the set. Using the Kinect we tracked the actors and positioned "halos" around the actor's heads, acting as a follow spotlight.
 

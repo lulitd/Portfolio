@@ -15,7 +15,10 @@ thumbnail: alice.jpg
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
-category: Interaction Design, Interactive Performance, Creative Coding
+category:
+  - Interaction Design
+  - Interactive Performance
+  - Creative Coding
 description: |-
   A retelling of the classic tale Alice In Wonderland using the wonders of this land. In this interactive dance performance we follow Alice, portrayed by Madison Rath, as she travels throughout Wonderland. The backgrounds (created in Photoshop and animated with Processing) as well as lights (controlled with QLC+) are responsive to the dancer's movements in real time.
 
