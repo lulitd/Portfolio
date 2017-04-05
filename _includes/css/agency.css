@@ -217,6 +217,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
     background-color: #{{ site.data.template.color.primary }};
+    color: #{{ site.data.template.color.secondary-dark}};
 }
 
 .navbar-default .nav li a {
@@ -235,7 +236,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-nav>.active>a {
   color: white;
-  border: 1px solid #FECE1A;
+  border: 1px solid #{{ site.data.template.color.primary }};
   background-color:transparent;
 }
 
@@ -794,6 +795,12 @@ ul.social-buttons li a:active {
 .btn.active,
 .btn:active:focus {
     outline: 0;
+}
+
+.btn .outlineButton {
+  color: #{{ site.data.template.color.primary }};
+  border: 1px solid #{{ site.data.template.color.primary }};
+  background-color:transparent;
 }
 
 .portfolio-modal .modal-content {

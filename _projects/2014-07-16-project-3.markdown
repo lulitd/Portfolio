@@ -27,7 +27,7 @@ exhibitions:
   - Digital Media Showcase (April 2016)
   - Computational Beauty exhibition(April 2016)
 
-  category:
-    - UI Design
-    - Creative Coding
+category:
+  - UI Design
+  - Creative Coding
 ---
