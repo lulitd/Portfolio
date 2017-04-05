@@ -10,7 +10,7 @@ body {
     color: #{{ site.data.template.color.secondary-dark }};
 }
 
-.text-muted {
+.text-mute {
     #{{ site.data.template.color.muted }};
 }
 

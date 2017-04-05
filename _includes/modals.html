@@ -13,9 +13,9 @@
                    <div class="col-lg-8 col-lg-offset-2">
                        <div class="modal-body">
                            <h2>{{ post.title }}</h2>
-                           <p class="item-intro text-muted">{{ post.quick-summary }}</p>
+                           <p class="item-intro text-mute">{{ post.quick-summary }}</p>
                            {% if post.collaborators%}
-                           <p class="item-intro text-muted">In collaboration with
+                           <p class="item-intro text-mute">In collaboration with
                              {% for collab in post.collaborators %}
                                 <a href="{{ collab.url }}"> {{collab.name}} </a>
                              {% endfor %}
