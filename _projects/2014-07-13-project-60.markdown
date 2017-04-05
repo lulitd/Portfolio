@@ -19,10 +19,10 @@ category:
   - Interaction Design
   - Creative Coding
   - Interactive Performance
-description: |-
-  Outdoor theatrical production of Lazarus and His Beloved by Kahlil Gibran, in collaboration with Broken Hill Theatre. In this production, we created an interactive projection mapping system which was use to project visuals onto the set. Using the Kinect we tracked the actors and positioned "halos" around the actor's heads, acting as a follow spotlight. \\
+description: Outdoor theatrical production of Lazarus and His Beloved by Kahlil Gibran, in collaboration with Broken Hill Theatre. In this production, we created an interactive projection mapping system which was use to project visuals onto the set. Using the Kinect we tracked the actors and positioned "halos" around the actor's heads, acting as a follow spotlight.
 
-  My primary contribution to the production was developing the software which mapped Actor's position data gather from the Kinect unto the custom geometry projection surface. \\
+
+My primary contribution to the production was developing the software which mapped Actor's position data gather from the Kinect unto the custom geometry projection surface.
 
 software:
   - Max MSP
