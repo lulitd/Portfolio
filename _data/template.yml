@@ -3,9 +3,8 @@ color:
   primary: FECE1A
   secondary: E4B917
   secondary-dark: 333
-  muted: EFEFEF
-  darkmuted: 9e9e9e
-
+  muted: 9E9E9E
+  darkmuted: 616161
 
 # Font Families
 font:
