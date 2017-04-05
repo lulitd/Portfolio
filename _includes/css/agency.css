@@ -39,10 +39,12 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
+    text-decoration:none;
+    font-weight: bold;
 }
 
 a {
-    color: #{{ site.data.template.color.primary }};
+    color: #{{ site.data.template.color.link-init }};
 }
 
 a:hover,
@@ -81,7 +83,6 @@ h6 {
 }
 
 .btn-primary {
-    border-color: #{{ site.data.template.color.primary }};
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
@@ -94,7 +95,6 @@ h6 {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    border-color: #{{ site.data.template.color.primary }};
     color: #fff;
     background-color: #{{ site.data.template.color.secondary }};
 }
@@ -120,7 +120,6 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #{{ site.data.template.color.primary }};
     background-color: #{{ site.data.template.color.primary }};
 }
 
@@ -146,7 +145,6 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #{{ site.data.template.color.primary }};
     color: #fff;
     background-color: #{{ site.data.template.color.secondary }};
 }
@@ -172,7 +170,6 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-    border-color: #{{ site.data.template.color.primary }};
     background-color: #{{ site.data.template.color.primary }};
 }
 
@@ -276,10 +273,15 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default.navbar-shrink {
         padding: 10px 0;
         background-color: #222;
+        border-bottom: #{{ site.data.template.color.link-init }} solid 5px;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
+    }
+    .navbar-default.navbar-shrink .navbar-brand .logo{
+       width: 35px;
+       margin: 0px 15px;
     }
 }
 
