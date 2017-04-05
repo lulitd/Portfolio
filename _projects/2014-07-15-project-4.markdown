@@ -12,7 +12,6 @@ collaborators:
 layout: default
 modal-id: 4
 date: 2015-06-01
-img: impress.jpg
 thumbnail: impress.jpg
 alt: image-alt
 project-date: July 2015

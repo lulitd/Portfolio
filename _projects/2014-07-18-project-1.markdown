@@ -10,7 +10,6 @@ collaborators:
     url:
 layout: default
 modal-id: 7
-img: encounter.jpg
 thumbnail: encounter.jpg
 alt: encounter
 project-date: January 2016

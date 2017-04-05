@@ -37,6 +37,6 @@ category:
   - Interaction Design
   - Creative Coding
 
-  youtube_url: ~
-  vimeo_url: "https://player.vimeo.com/video/145074018?color=FECE1A&amp;byline=0&amp;portrait=0"  
+youtube_url: ~
+vimeo_url: "https://player.vimeo.com/video/145074018?color=FECE1A&amp;byline=0&amp;portrait=0"  
 ---

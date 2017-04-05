@@ -8,7 +8,6 @@ collaborators:
 layout: default
 modal-id: 2
 date: 2014-07-15
-img: midsum.jpg
 thumbnail: midsum.jpg
 alt: image-alt
 project-date: April 2013
