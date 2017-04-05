@@ -14,7 +14,6 @@ img: encounter.jpg
 thumbnail: encounter.jpg
 alt: encounter
 project-date: January 2016
-client: Start Bootstrap
 description: |-
   Encounter is an installation where participants can interact with artificial creatures and environments using mixed reality modes of interaction.
 
@@ -23,6 +22,20 @@ description: |-
   In the projection zone, participants control their digital avatars using their body movements.  The environment and creatures of this ecosystem respond to their gestures. Any changes made by the city planners are reflected in the projected view in real time.
 
   For this Project, my primary focus were the participant's interactions in the projection space, projection design and world modelling.
+
+software:
+  - Unity3D (c#)
+  - Cinema4D
+
+hardware:
+  - Microsoft Kinect for Windows
+  - Android/iOS Smartphone and tablets
+
+exhibitions:
+  - York University Undergraduate Research Fair (February 2016)
+  - Digital Media Showcase (April 2016)
+  - Computational Beauty exhibition(April 2016)
+  - Digifest Festival (April 2016)
 
 category:
   - Interaction Design

@@ -24,4 +24,17 @@ description: |-
 
   I was responsible for taking 2D assets and making them reactive to Alice's Movements . I also created a custom show control interface within MaxMSP which allowed for smooth and seamless transitions between scenes.
 
+software:
+  - Max MSP
+  - Processing
+  - QLC+
+
+hardware:
+  - Microsoft Kinect
+  - Stage lights
+  - Projectors
+
+exhibitions:
+  - "Interactive Stage (2014)"
+
 ---
