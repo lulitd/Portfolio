@@ -41,6 +41,6 @@ category:
   - Interaction Design
   - Creative Coding
 
-youtube_url:"https://www.youtube.com/embed/zEDyT4MUois"
-vimeo_url:#
+youtube_url: "https://www.youtube.com/embed/zEDyT4MUois"
+vimeo_url: #
 ---
