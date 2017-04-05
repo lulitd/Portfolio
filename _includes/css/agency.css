@@ -68,7 +68,7 @@ h6 {
 }
 
 .bg-light-gray {
-    background-color: ##E0E0E0;
+    background-color: #E0E0E0;
 }
 
 .bg-mid-gray {
@@ -194,11 +194,16 @@ fieldset[disabled] .btn-xl.active {
     font-weight: 700;
 }
 
+.navbar-default .navbar-brand .logo{
+  margin: 15px;
+}
+
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
     color: #{{ site.data.template.color.secondary }};
+    font-weight: 900;
 }
 
 .navbar-default .navbar-collapse {
