@@ -32,4 +32,6 @@ hardware:
 exhibitions:
   - "Toronto 2015 Pan Am & Parapan Am Games,York University (July 2015)"
   - "ISO: Student Night @ The Power PlantShow and Tell (October 2015)"
+
+vimeo_url: "https://player.vimeo.com/video/123132805?color=FECE1A&amp;byline=0&amp;portrait=0"
 ---

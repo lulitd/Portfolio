@@ -30,4 +30,6 @@ exhibitions:
 category:
   - UI Design
   - Creative Coding
+
+youtube_url: "https://www.youtube.com/embed/RsCmqXnNgY4"
 ---

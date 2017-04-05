@@ -37,4 +37,6 @@ hardware:
 exhibitions:
   - "Interactive Stage (2014)"
 
+vimeo_url: "https://player.vimeo.com/video/95346371?color=FECE1A&amp;byline=0&amp;portrait=0"
+
 ---
