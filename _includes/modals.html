@@ -32,6 +32,9 @@
                                <li><strong>Category:</strong>
                                  {% for c in post.category %}
                                  {{c}}
+                                 {% if forloop.last == false %}
+                                 ,
+                                 {% endif %}
                                  {% endfor %}
                                </li>
                                {% endif %}

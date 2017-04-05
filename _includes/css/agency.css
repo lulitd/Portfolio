@@ -273,7 +273,8 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default.navbar-shrink {
         padding: 10px 0;
         background-color: #222;
-        border-bottom: #{{ site.data.template.color.link-init }} solid 5px;
+        border-bottom: #FFF solid 5px;
+        border-bottom-color: #{{ site.data.template.color.secondary }};
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
