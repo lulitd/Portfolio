@@ -2,6 +2,11 @@
 title: Chasing Stars
 subtitle: Artificial Life Art Piece
 quick-summary: Artificial Life Art Piece
+collaborators:
+  - name: Luke Lu Li
+    url:
+  - name: Rose Mengmei Zhou
+    url:
 layout: default
 modal-id: 5
 date: 2014-07-16

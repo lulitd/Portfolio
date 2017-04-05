@@ -2,6 +2,11 @@
 title: Lazurus and His Beloved
 subtitle: Interactive Theatre Production
 quick-summary: Interactive Theatre Production
+collaborators:
+  - name: Invisible Light Production
+    url:
+  - name: Broken Hill Theatre
+    url:
 layout: default
 modal-id: 1
 date: 2014-07-15

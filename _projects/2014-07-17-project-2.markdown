@@ -2,6 +2,15 @@
 title: Blink
 subtitle: Virtual Reality Experience
 quick-summary: Virtual Reality Experience
+collaborators:
+  - name: Youhan Guan
+    url:
+  - name: Luke Lu Li
+    url:
+  - name: Danning Lu
+    url:
+  - name: Rose Mengmei Zhou
+    url:
 layout: default
 modal-id: 6
 date: 2015-11-10

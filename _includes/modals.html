@@ -15,7 +15,7 @@
                            <h2>{{ post.title }}</h2>
                            <p class="item-intro text-muted">{{ post.quick-summary }}</p>
 
-                           {% if post.collaborators.length > 0 %}
+                           {% if post.collaborators%}
                            <p class="item-intro text-muted">In collaboration with
                              {% for collab in post.collaborators %}
                                 <a href="{{ collab.url }}"> {{collab.name}} </a>
