@@ -797,9 +797,9 @@ ul.social-buttons li a:active {
     outline: 0;
 }
 
-.btn .outlineButton {
-  color: #{{ site.data.template.color.primary }};
-  border: 1px solid #{{ site.data.template.color.primary }};
+.outlineButton {
+  color: white;
+  border: 1px solid white;
   background-color:transparent;
 }
 
