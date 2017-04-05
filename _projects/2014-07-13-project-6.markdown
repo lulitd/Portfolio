@@ -3,7 +3,7 @@ title: Midsummer Night's Dream
 subtitle: Interactive Theatre Production
 quick-summary: Interactive Theatre Production
 collaborators:
-  -name: Theatre @ York Production
+  - name: "Theatre @ York"
     url:
 layout: default
 modal-id: 2

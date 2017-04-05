@@ -4,11 +4,11 @@ subtitle: Virtual Reality Experience
 quick-summary: Virtual Reality Experience
 collaborators:
   - name: Youhan Guan
-    url:
+    url: "http://youhanguan.com/"
   - name: Luke Lu Li
     url:
   - name: Danning Lu
-    url:
+    url: "http://danninglu.com/"
   - name: Rose Mengmei Zhou
     url:
 layout: default

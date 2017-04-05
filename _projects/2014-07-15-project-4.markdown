@@ -4,11 +4,11 @@ subtitle: Interactive Art Installation
 quick-summary: Interactive Art Installation
 collaborators:
   - name: Nichie Enriquez
-    url:
+    url: "http://nichieenriquez.com/"
   - name: Kevin Feliciano
     url:
   - name: Youhan Guan
-    url:
+    url: "http://youhanguan.com/"
 layout: default
 modal-id: 4
 date: 2015-06-01
