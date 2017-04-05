@@ -14,7 +14,6 @@
                        <div class="modal-body">
                            <h2>{{ post.title }}</h2>
                            <p class="item-intro text-muted">{{ post.quick-summary }}</p>
-
                            {% if post.collaborators%}
                            <p class="item-intro text-muted">In collaboration with
                              {% for collab in post.collaborators %}
@@ -38,6 +37,7 @@
                                <li>Category:
                                  {% for c in post.category %}
                                 <a href="">{{c}}</a>
+                                 {% endfor %}
                                </li>
                                {% endif %}
                            </ul>
