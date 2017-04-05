@@ -10,7 +10,7 @@ collaborators:
 layout: default
 modal-id: 5
 date: 2014-07-16
-thumbnail: chasing02.png
+thumbnail: chasing01.png
 alt: image-alt
 project-date: April 2016
 description: |-
