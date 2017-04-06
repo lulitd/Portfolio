@@ -39,7 +39,6 @@ $('div.modal').on('show.bs.modal', function() {
 $('div.modal').on('hidden.bs.modal', function (e) {
   var modal = this;
 	var hash = modal.id;
-  var videoFrame = modal.iframe;
-  console.log(videoFrame);
+  console.log(hash);
     //   $(videoFrame).attr("src", $(videoFrame).attr("src"));
 });
