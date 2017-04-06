@@ -57,7 +57,7 @@ var  videoIframe = $(".vidHolder.youtubeVideo iframe",modal).attr('src');
         var vimeoDiv = modal.getElementsByClassName("vimeoVideo")[0];
         var iFrame = vimeoDiv.getElementsByTagName("iFrame")[0];
 
-        console.log(iframe);
+        console.log(iFrame);
 
         var player = new Vimeo.Player(iFrame);
         player.pause();
