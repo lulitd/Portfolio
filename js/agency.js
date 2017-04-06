@@ -54,7 +54,9 @@ var  videoIframe = $(".vidHolder.youtubeVideo iframe",modal).attr('src');
     $(".vidHolder.youtubeVideo iframe",modal).attr('src',videoIframe);
       //alert($('<div><iframe src="something"></iframe></div>').find('iframe').attr('src'));
   } else {
-    var iframe = $(".vidHolder.vimeoVideo iframe",modal);
+        var vimeoDiv = modal.getElementsByClassName("vimeoVideo")[0];
+        var iFrame = vimeoDiv.getElementsByTagName("iframe")[0];
+
         console.log(iframe);
 
   //  var player = new Vimeo.Player(iframe);
