@@ -36,32 +36,22 @@ $('div.modal').on('show.bs.modal', function() {
 	}
 });
 
-
-
-
 $('div.modal').on('hidden.bs.modal', function (e) {
   var modal = this;
 	var hash = modal.id;
 
-  //var nameValue = $(modal).find('#vidHolder').find('iframe').attr('src');
-  //var videoIframe= modal.getElementsByTagName("iframe")[0];
-
 var  videoIframe = $(".vidHolder.youtubeVideo iframe",modal).attr('src');
 
   if (typeof videoIframe != "undefined") {
-    console.log(videoIframe);
     $(".vidHolder.youtubeVideo iframe",modal).attr('src','');
     $(".vidHolder.youtubeVideo iframe",modal).attr('src',videoIframe);
-      //alert($('<div><iframe src="something"></iframe></div>').find('iframe').attr('src'));
   } else {
         var vimeoDiv = modal.getElementsByClassName("vimeoVideo")[0];
+      if (typeof vimeoDiv != "undefined") {
         var iFrame = vimeoDiv.getElementsByTagName("iFrame")[0];
-
-        console.log(iFrame);
-
         var player = new Vimeo.Player(iFrame);
         player.pause();
-
+      }
 }
 
 });
