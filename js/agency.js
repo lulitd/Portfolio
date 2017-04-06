@@ -46,8 +46,9 @@ $('div.modal').on('hidden.bs.modal', function (e) {
 var  videoIframe = $(".vidHolder iframe",modal).attr('src');
 
   if (typeof videoIframe != "undefined") {
+    console.log(videoIframe);
     $(".vidHolder iframe",modal).attr('src','');
-    $(".vidHolder iframe",modal).attr('src'videoIframe);
+    $(".vidHolder iframe",modal).attr('src',videoIframe);
       //alert($('<div><iframe src="something"></iframe></div>').find('iframe').attr('src'));
     }
 });
