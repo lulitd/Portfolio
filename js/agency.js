@@ -36,6 +36,9 @@ $('div.modal').on('show.bs.modal', function() {
 	}
 });
 
+
+
+
 $('div.modal').on('hidden.bs.modal', function (e) {
   var modal = this;
 	var hash = modal.id;
@@ -43,12 +46,21 @@ $('div.modal').on('hidden.bs.modal', function (e) {
   //var nameValue = $(modal).find('#vidHolder').find('iframe').attr('src');
   //var videoIframe= modal.getElementsByTagName("iframe")[0];
 
-var  videoIframe = $(".vidHolder iframe",modal).attr('src');
+var  videoIframe = $(".vidHolder.youtubeVideo iframe",modal).attr('src');
 
   if (typeof videoIframe != "undefined") {
     console.log(videoIframe);
-    $(".vidHolder iframe",modal).attr('src','');
-    $(".vidHolder iframe",modal).attr('src',videoIframe);
+    $(".vidHolder.youtubeVideo iframe",modal).attr('src','');
+    $(".vidHolder.youtubeVideo iframe",modal).attr('src',videoIframe);
       //alert($('<div><iframe src="something"></iframe></div>').find('iframe').attr('src'));
-    }
+  } else {
+    var iframe = $(".vidHolder.vimeoVideo iframe",modal);
+
+    var player = new Vimeo.Player(iframe);
+
+  $('div.modal').on('hidden.bs.modal', function () {
+  player.pause();
+});
+}
+
 });
