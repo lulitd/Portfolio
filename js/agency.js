@@ -39,13 +39,13 @@ $('div.modal').on('show.bs.modal', function() {
 $('div.modal').on('hidden.bs.modal', function (e) {
   var modal = this;
 	var hash = modal.id;
-  var videoIframe= modal.getElementsByTagName("iframe")[0];
+
+  var nameValue = $(modal).find('#vidHolder').find('iframe')attr('src');
+  //var videoIframe= modal.getElementsByTagName("iframe")[0];
 
 
-  if (typeof videoIframe != "undefined") {
+  if (typeof nameValue != "undefined") {
       console.log(videoIframe);
 
- var src = modal.getElementsByTagName("iframe")[0].attr('data-iframe-src');
-        videoIframe.attr('src', src);
-    }
+      //alert($('<div><iframe src="something"></iframe></div>').find('iframe').attr('src'));
 });
