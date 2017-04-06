@@ -47,9 +47,5 @@ $('div.modal').on('hidden.bs.modal', function (e) {
 
  var src = videoIframe.attr('data-iframe-src');
         videoIframe.attr('src', src);
-    });
-
-
-
-}
+    }
 });
