@@ -94,6 +94,10 @@ h6 {
     border-color: transparent;
 }
 
+.btn-primary .darkText{
+    color: #{{ site.data.template.color.secondary-dark }};
+}
+
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
