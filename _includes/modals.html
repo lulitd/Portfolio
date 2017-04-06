@@ -41,7 +41,9 @@
                            {% endif %}
 
                            <hr class="star-primary">
-                           <p>{{ post.description }}</p>
+                           {% for d in post.description %}
+                            <p>{{d}}</p>
+                           {% endfor %}
                            <ul class="list-inline item-details">
                                <li><strong>Date:</strong>
                                  {{ post.project-date }}
