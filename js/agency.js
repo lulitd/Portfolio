@@ -55,12 +55,12 @@ var  videoIframe = $(".vidHolder.youtubeVideo iframe",modal).attr('src');
       //alert($('<div><iframe src="something"></iframe></div>').find('iframe').attr('src'));
   } else {
     var iframe = $(".vidHolder.vimeoVideo iframe",modal);
+        console.log(iframe);
 
-    var player = new Vimeo.Player(iframe);
-
-  $('div.modal').on('hidden.bs.modal', function () {
-  player.pause();
-});
+  //  var player = new Vimeo.Player(iframe);
+  //$('div.modal').on('hidden.bs.modal', function () {
+  //player.pause();
+  //});
 }
 
 });
