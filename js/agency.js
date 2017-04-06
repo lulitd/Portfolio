@@ -39,6 +39,7 @@ $('div.modal').on('show.bs.modal', function() {
 $('div.modal').on('hidden.bs.modal', function (e) {
   var modal = this;
 	var hash = modal.id;
-  console.log(hash);
+  var videoIframe= modal.getElementsByTagName("iframe")[0];
+  console.log(videoIframe);
     //   $(videoFrame).attr("src", $(videoFrame).attr("src"));
 });
