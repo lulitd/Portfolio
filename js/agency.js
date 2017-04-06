@@ -40,12 +40,13 @@ $('div.modal').on('hidden.bs.modal', function (e) {
   var modal = this;
 	var hash = modal.id;
 
-  var nameValue = $(modal).find('#vidHolder').find('iframe')attr('src');
+  var nameValue = $(modal).find('#vidHolder').find('iframe').attr('src');
   //var videoIframe= modal.getElementsByTagName("iframe")[0];
-
+  console.log(nameValue);
 
   if (typeof nameValue != "undefined") {
-      console.log(videoIframe);
+    
 
       //alert($('<div><iframe src="something"></iframe></div>').find('iframe').attr('src'));
+    }
 });
