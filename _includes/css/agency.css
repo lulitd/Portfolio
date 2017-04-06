@@ -11,7 +11,7 @@ body {
 }
 
 .topMargin{
-  margin-top: 15px;
+  margin-top: 10px !important;
 }
 .text-mute {
     #{{ site.data.template.color.muted }};
@@ -140,7 +140,7 @@ fieldset[disabled] .btn-primary.active {
     font-family: {{ site.data.template.font.primary }};
     font-size: 18px;
     font-weight: 700;
-    color: #fff;
+    color: #{{ site.data.template.color.secondary-dark }};
     background-color: #{{ site.data.template.color.primary }};
     border-color: transparent;
 }
@@ -150,7 +150,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    color: #fff;
+    color: #{{ site.data.template.color.secondary-dark }};
     background-color: #{{ site.data.template.color.secondary }};
 }
 
