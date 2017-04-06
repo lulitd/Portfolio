@@ -10,6 +10,9 @@ body {
     color: #{{ site.data.template.color.secondary-dark }};
 }
 
+.topMargin{
+  margin-top: 15px;
+}
 .text-mute {
     #{{ site.data.template.color.muted }};
 }
