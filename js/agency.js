@@ -39,11 +39,11 @@ $('div.modal').on('show.bs.modal', function() {
 $('div.modal').on('hidden.bs.modal', function (e) {
   var modal = this;
 	var hash = modal.id;
-  var videoIframe= modal.getElementsByTagName("iframe")[0];
+  var videoIframe= modal.getElementsByTagName("iframe")[0].contentWindow;
 
 
-  if (typeof someUndeclaredVariable == "undefined") {
+  if (typeof videoIframe != "undefined") {
       console.log(videoIframe);
-         videoIframe.attr("src", videoIframe.attr("src"));
+    videoIframe.postMessage('{"event":"command","func":"' + 'pauseVideo' + '","args":""}','*');
 }
 });
