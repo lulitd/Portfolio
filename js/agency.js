@@ -35,3 +35,11 @@ $('div.modal').on('show.bs.modal', function() {
 		}
 	}
 });
+
+/*Requieres jQuery*/
+$('.modal').bind('hide', function () {
+ var iframe = $(this).children('div.modal-body').find('iframe');
+ var src = iframe.attr('src');
+ iframe.attr('src', '');
+ iframe.attr('src', src);
+});

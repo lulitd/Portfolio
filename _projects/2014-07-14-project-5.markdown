@@ -18,9 +18,9 @@ category:
   - Interaction Design
   - Interactive Performance
   - Creative Coding
-description: |-
-  A retelling of the classic tale Alice In Wonderland using the wonders of this land. In this interactive dance performance we follow Alice, portrayed by Madison Rath, as she travels throughout Wonderland. The backgrounds (created in Photoshop and animated with Processing) as well as lights (controlled with QLC+) are responsive to the dancer's movements in real time.
-  I was responsible for taking 2D assets and making them reactive to Alice's Movements . I also created a custom show control interface within MaxMSP which allowed for smooth and seamless transitions between scenes.
+description:
+  - A retelling of the classic tale Alice In Wonderland using the wonders of this land. In this interactive dance performance we follow Alice, portrayed by Madison Rath, as she travels throughout Wonderland. The backgrounds (created in Photoshop and animated with Processing) as well as lights (controlled with QLC+) are responsive to the dancer's movements in real time.
+  - I was responsible for taking 2D assets and making them reactive to Alice's Movements . I also created a custom show control interface within MaxMSP which allowed for smooth and seamless transitions between scenes.
 
 software:
   - Max MSP
