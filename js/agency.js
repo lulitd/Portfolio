@@ -44,11 +44,10 @@ $('div.modal').on('hidden.bs.modal', function (e) {
   //var videoIframe= modal.getElementsByTagName("iframe")[0];
 
 var  videoIframe = $(".vidHolder iframe",modal).attr('src');
-console.log(videoIframe);
 
-  if (typeof nameValue != "undefined") {
-
-
+  if (typeof videoIframe != "undefined") {
+    $(".vidHolder iframe",modal).attr('src','');
+    $(".vidHolder iframe",modal).attr('src'videoIframe);
       //alert($('<div><iframe src="something"></iframe></div>').find('iframe').attr('src'));
     }
 });
