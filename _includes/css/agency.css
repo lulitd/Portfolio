@@ -94,7 +94,7 @@ h6 {
     border-color: transparent;
 }
 
-.btn-primary .darkText{
+.btn-primary.darkText{
     color: #{{ site.data.template.color.secondary-dark }};
 }
 
@@ -103,7 +103,6 @@ h6 {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    color: #fff;
     background-color: #{{ site.data.template.color.secondary }};
     border-color: transparent;
 }
