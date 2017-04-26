@@ -13,7 +13,7 @@ modal-id: 7
 img: ~
 thumbnail: encounter.jpg
 alt: encounter
-project-date: January 2016
+project-date: 2016
 software:
   - Unity3D (c#)
   - Cinema4D
