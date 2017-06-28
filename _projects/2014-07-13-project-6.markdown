@@ -17,7 +17,7 @@ category:
   - Interaction Design
   - Creative Coding
 
-description: A theatrical production of Shakespeare's "A Midsummer Night's Dream" directed by Alison Humphrey is a collaboration between the theatre department and the Digital Media Program at York University. As part of the team of 6 digital media students, we were in charge of developing the interactive projected special effects for the live performances. The production involved live motion capture and onstage particle effects projections based on infrared light tracking. I designed specific interactive effects which respond to commands from mouse/keyboard, a midi controller and the custom camera ir-light tracking system.
+description: A theatrical production of Shakespeare's "A Midsummer Night's Dream" directed by [Alison Humphrey](https://google.com) is a collaboration between the theatre department and the Digital Media Program at York University. As part of the team of 6 digital media students, we were in charge of developing the interactive projected special effects for the live performances. The production involved live motion capture and onstage particle effects projections based on infrared light tracking. I designed specific interactive effects which respond to commands from mouse/keyboard, a midi controller and the custom camera ir-light tracking system.
 
 software:
   - Max MSP
