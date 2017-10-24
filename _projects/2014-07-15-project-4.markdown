@@ -2,6 +2,7 @@
 title: "Impress: Visage"
 subtitle: Interactive Art Installation
 quick-summary: Interactive Art Installation
+published: true # Use this for drafts!
 collaborators:
   - name: Nichie Enriquez
     url: "http://nichieenriquez.com/"

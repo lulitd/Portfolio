@@ -2,6 +2,7 @@
 title: Chasing Stars
 subtitle: Artificial Life Art Piece
 quick-summary: Artificial Life Art Piece
+published: true # Use this for drafts!
 collaborators:
   - name: Luke Lu Li
     url:

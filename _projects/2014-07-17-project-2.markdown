@@ -2,6 +2,7 @@
 title: Blink
 subtitle: Mixed Reality Experience
 quick-summary: Mixed Reality Experience
+published: true # Use this for drafts!
 collaborators:
   - name: Youhan Guan
     url: "http://youhanguan.com/"

@@ -7,7 +7,8 @@
                 </div>
             </div>
             <div class="row equal">
-            {% for project in site.projects %}
+            {% assign projects = site.projects | where:'published', 'true' %}
+            {% for project in projects %}
                 <div class="col-lg-3 col-md-6 portfolio-item">
                     <a href="#portfolioModal{{ project.modal-id }}" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">

@@ -3,6 +3,7 @@ title: Encounter
 date: '2016-01-01 00:00:00'
 subtitle: Interactive Art Installation
 quick-summary: Interactive Artificial Ecosystem
+published: true # Use this for drafts!
 collaborators:
   - name: Youhan Guan
     url: "http://youhanguan.com/"
